@@ -1,0 +1,161 @@
+  #title {
+    background-color: #ff4c68;
+  }
+
+  body {
+    font-family: "Montserrat";
+  }
+
+  h1, h2, h3 {
+    font-family: "Montserrat";
+    font-weight: 900;
+  }
+
+
+  h1 {
+    color: white;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    color:#8f8f8f;
+  }
+
+  .container-fluid {
+    padding: 3% 15% 5%;
+  }
+
+  /* Navigation bar */
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: 900;
+  }
+
+  .nav-item {
+    padding: 0 18px;
+  }
+
+  /*Buttons*/
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+
+  /* Imagem do topo*/
+  /* Essa classe foi criada porque no Bootstrap 5
+se você põe a posição da imagem como relativa
+ela vai para o pai, nesse caso o "body". É só
+criar essa classe no div acima da imagem e dar
+a ela a posição relativa */
+  .classequalquer {
+    position: relative;
+  }
+
+  .cel-cachorro {
+    transform: rotate(25deg);
+    position: absolute;
+    /* z-index: :-1; */
+    max-width: 58%;
+    left: 15%;
+  }
+
+  /* Segundo quadro */
+  #features {
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+  }
+
+  .icons-2 {
+    color: #ef8172;
+    margin-bottom: 0.5rem;
+  }
+
+
+  .icons-2:hover {
+    color: #ff4c68;
+  }
+
+  /*testimonials*/
+  #testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+  }
+
+  .testimonial-image {
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+
+  .carousel-item {
+    padding: 7% 30%;
+  }
+
+  #press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+
+  .press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+
+  /* Pricing Section */
+  #pricing {
+    padding: 10%;
+    text-align: center;
+  }
+
+  .pricing-color {
+    padding: 3% 2%;
+  }
+
+  /* CTA section */
+  #cta {
+    text-align: center;
+    color: #fff;
+    background-color: #ff4c68;
+    padding: 7% 20%;
+  }
+
+  #footer {
+    text-align: center;
+    background-color: #fff;
+    padding: 7% 30%;
+  }
+
+  .icon-fim{
+    margin: 2%;
+    color: black;
+  }
+
+  @media (max-width: 975px) {
+    #title {
+      text-align: center;
+    }
+
+    .cel-cachorro {
+      position: static;
+      transform: rotate(0);
+    }
+  }
